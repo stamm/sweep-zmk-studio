@@ -1,0 +1,13 @@
+file_format: "1"
+id: sweepy
+name: Sweepy/Sweep
+type: shield
+url: https://github.com/davidphilipbarr/Sweep
+requires: [pro_micro]
+exposes: [i2c_oled]
+features:
+  - keys
+  - studio
+siblings:
+  - sweepy_left
+  - sweepy_right
